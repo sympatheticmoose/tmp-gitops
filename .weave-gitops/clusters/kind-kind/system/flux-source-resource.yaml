@@ -1,0 +1,14 @@
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta1
+kind: GitRepository
+metadata:
+  name: wego-github-tmp-gitops
+  namespace: wego-system
+spec:
+  interval: 30s
+  ref:
+    branch: main
+  secretRef:
+    name: wego-github-tmp-gitops
+  url: ssh://git@github.com/sympatheticmoose/tmp-gitops.git
+
