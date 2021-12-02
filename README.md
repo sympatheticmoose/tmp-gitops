@@ -10,10 +10,10 @@ Steps
 5. gitops install --app-config-url https://github.com/sympatheticmoose/tmp-gitops/
 6. gitops ui run
 7. Applications > Add App:  
-Name: podinfo-deploy
-Namespace: wego-system
-Source Repo URL: https://github.com/sympatheticmoose/podinfo-deploy
-Config Repo URL: https://github.com/sympatheticmoose/tmp-gitops/
-Path: ./
-Branch: main
+Name: podinfo-deploy  
+Namespace: wego-system  
+Source Repo URL: https://github.com/sympatheticmoose/podinfo-deploy  
+Config Repo URL: https://github.com/sympatheticmoose/tmp-gitops/  
+Path: ./  
+Branch: main  
 8. Submit
