@@ -13,7 +13,7 @@ spec:
       serviceAccountName: wego-app-service-account
       containers:
         - name: wego-app
-          image: ghcr.io/weaveworks/wego-app:v0.5.1-rc3-5-g06c6f60f
+          image: ghcr.io/weaveworks/wego-app:0.5.0
           args: ["ui", "run", "-l"]
           ports:
             - containerPort: 9001
