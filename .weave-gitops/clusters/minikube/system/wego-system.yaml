@@ -40,8 +40,8 @@ spec:
                 description: Branch is the branch in the repository where the k8s
                   yaml files for this application are stored.
                 type: string
-              config_url:
-                description: ConfigURL is the address of the git repository containing
+              config_repo:
+                description: ConfigRepo is the address of the git repository containing
                   the automation for this application
                 type: string
               deployment_type:
